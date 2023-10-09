@@ -17,10 +17,10 @@ function Home() {
    }, []);
 
    const renderArticle = () => {
-      return actus?.map((element, index) => {
+      return actus?.map(({ author, publishedAt, title, url, urlToImage }, index) => {
          return (
             <div key={index} className="container">
-               <Actualites author={element.author} publishedAt={element.publishedAt} title={element.title} url={element.url} />
+               <Actualites author={author} publishedAt={publishedAt} title={title} url={url} urlToImage={urlToImage} />
             </div>
          );
       });

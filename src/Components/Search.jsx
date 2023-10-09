@@ -43,9 +43,7 @@ function Search() {
             <Menu />
             <h1>La banque a infos</h1>
             <div>
-               <TextField onChange={handleInputChange} id="outlined-basic" label="Que cherchez-vous ?" variant="outlined" color="warning" />
-               {/* <input className="inputSearch" onChange={handleInputChange} type="text" placeholder="Votre recherche"></input> */}
-               <input className="inputSearch" onChange={handleInputChangeDate} type="date"></input>
+               <TextField onChange={handleInputChange} id="outlined-basic" label="Que cherchez-vous ?" variant="outlined" color="warning" /> <input className="inputSearch" onChange={handleInputChangeDate} type="date"></input>
                <IconButton onClick={postActu} aria-label="search" size="large">
                   <SearchIcon fontSize="inherit" />
                </IconButton>
