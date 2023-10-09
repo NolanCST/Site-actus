@@ -1,0 +1,20 @@
+.container {
+   background-color: rgb(228, 228, 228);
+   border-radius: 10px;
+   padding: 1%;
+   margin: 1%;
+   width: 40%;
+   border: 1px solid transparent;
+}
+
+h1,
+span {
+   color: black;
+}
+
+.homeContainer {
+   margin-bottom: 10%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}

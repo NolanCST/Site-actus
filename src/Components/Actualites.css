@@ -1,0 +1,17 @@
+.container:hover {
+   border-color: red;
+}
+.container:focus,
+.container:focus-visible {
+   outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+   height: auto;
+   width: 20vw;
+}
+
+.infosActus {
+   color: black;
+   text-decoration: none;
+}

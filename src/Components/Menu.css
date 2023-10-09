@@ -1,0 +1,12 @@
+.navBar {
+   display: flex;
+   background-color: red;
+   justify-content: space-around;
+   padding: 1% 0;
+   width: 100vw;
+}
+
+.linkTitle {
+   color: white;
+   text-decoration: none;
+}
